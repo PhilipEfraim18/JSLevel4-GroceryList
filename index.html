@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grocery List</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <img src="/Grey & Green Elegant Minimal Good Taste Food Restaurant Logo.png" alt="">
+    <h1>Grocery List</h1>
+    <div class="container">
+        <form id="add">
+                <label for="item">Add Item:</label>
+                <input type="text" id="item" placeholder="Eg. Eggs, milk, etc.">
+                <br>
+                <br>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" placeholder="Eg. 2, 3, etc.">
+                <br>
+                <br>    
+                <button type="submit">Add</button>
+                <button id="clear" type="button">Clear List</button>
+        </form>   
+    </div>       
+        <ol id="groceryList">
+        </ol>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
